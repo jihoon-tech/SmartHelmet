@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <Button
+        android:id="@+id/btn_update2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="번호설정"
+        app:layout_constraintEnd_toEndOf="@+id/et_numberc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_numberc"
+        app:layout_constraintTop_toBottomOf="@+id/et_numberc" />
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="등록할 번호"
+        app:layout_constraintBottom_toTopOf="@+id/et_numbera"
+        app:layout_constraintEnd_toEndOf="@+id/et_numbera"
+        app:layout_constraintStart_toStartOf="@+id/et_numbera" />
+
+    <TextView
+        android:id="@+id/record_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/record_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/record_view8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="25dp"
+        android:text="등록된 번호"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_view1" />
+
+    <TextView
+        android:id="@+id/id_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="44dp"
+
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/text_view"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="님"
+        android:textSize="30sp"
+
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/id_view1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/id_view1" />
+
+    <EditText
+        android:id="@+id/et_numberc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="전화번호3"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_numberb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_numberb"
+        app:layout_constraintTop_toBottomOf="@+id/et_numberb" />
+
+    <EditText
+        android:id="@+id/et_numberb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="전화번호2"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_numbera"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_numbera"
+        app:layout_constraintTop_toBottomOf="@+id/et_numbera" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="설정 완료"
+        app:layout_constraintEnd_toEndOf="@+id/et_numberc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_numberc"
+        app:layout_constraintTop_toBottomOf="@+id/et_numberc" />
+
+    <EditText
+        android:id="@+id/et_numbera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="전화번호1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
